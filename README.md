@@ -32,7 +32,7 @@ Show your participation by adding our badge to your website:
 
 ```html
 <a href="https://michigan-webring.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://michigan-webring.vercel.app/michigan-logo.svg" alt="Michigan Webring" width="36" height="50">
+    <img src="https://michigan-webring.vercel.app/images/michigan-logo-white.svg" alt="Michigan Webring" width="36" height="50">
 </a>
 ```
 
