@@ -1,6 +1,6 @@
 # Michigan Web Ring
 
-A collection of personal websites from University of Michigan Computer Science students and alumni, inspired by the classic web rings of the 90s.
+A collection of personal websites from University of Michigan Computer Science students and alumni, inspired by the classic web rings of the 90s!
 
 ## Live Site
 
@@ -28,7 +28,7 @@ To add your site to the Michigan Web Ring:
 
 ## Adding the Badge
 
-Show your participation by adding our badge to your website:
+Show your participation by adding our badge to your website (this is also a great way to link back and boost your sites SEO):
 
 ```html
 <a href="https://michigan-webring.vercel.app" target="_blank" rel="noopener noreferrer">
