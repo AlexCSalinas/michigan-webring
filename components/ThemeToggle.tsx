@@ -35,13 +35,13 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed top-6 right-6 z-50 p-3 rounded-full bg-white/10 dark:bg-neutral-800/50 backdrop-blur-md border border-neutral-200/20 dark:border-neutral-700/50 hover:bg-white/20 dark:hover:bg-neutral-700/50 transition-all duration-200"
+      className="fixed top-4 right-4 md:top-6 md:right-6 z-50 p-2.5 border border-ink/10 dark:border-paper/20 bg-paper dark:bg-coal hover:border-rust dark:hover:border-rust transition-colors duration-150"
       aria-label="Toggle theme"
     >
       {isDark ? (
-        <Sun size={20} className="text-neutral-100" />
+        <Sun size={16} className="text-rust" />
       ) : (
-        <Moon size={20} className="text-neutral-600" />
+        <Moon size={16} className="text-neutral-700" />
       )}
     </button>
   )

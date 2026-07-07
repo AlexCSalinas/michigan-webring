@@ -13,18 +13,29 @@ export function SearchFilters({
   setSearchTerm,
 }: SearchFiltersProps) {
   return (
-    <div className="mb-12 relative group max-w-md mx-auto">
-      {/* Clean, minimal search input */}
-      <input
-        type="text"
-        placeholder="Search by site/year"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="w-full px-4 py-2 bg-transparent border-b-2 border-neutral-300 dark:border-neutral-600 text-neutral-900 dark:text-neutral-100 placeholder-neutral-500 dark:placeholder-neutral-400 focus:outline-none focus:border-maize dark:focus:border-maize transition-all duration-300 text-center text-lg font-light tracking-wide"
-      />
-      
-      {/* Subtle underline animation */}
-      <div className="w-0 group-focus-within:w-full h-0.5 bg-gradient-to-r from-maize to-yellow-400 mx-auto mt-1 transition-all duration-500 rounded-full"></div>
+    <div className="mb-8 max-w-xl mx-auto">
+      <label className="flex items-center gap-2 font-mono text-sm border-t border-b rule py-3 px-1">
+        <span className="text-rust select-none">$</span>
+        <span className="text-neutral-500 dark:text-neutral-500 select-none">grep</span>
+        <input
+          type="text"
+          placeholder="domain or year..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="flex-1 bg-transparent outline-none text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-600 caret-rust"
+          spellCheck={false}
+          autoComplete="off"
+        />
+        {searchTerm && (
+          <button
+            onClick={() => setSearchTerm('')}
+            className="text-xs text-neutral-400 dark:text-neutral-600 hover:text-neutral-700 dark:hover:text-neutral-300 select-none"
+            aria-label="Clear search"
+          >
+            [x]
+          </button>
+        )}
+      </label>
     </div>
   )
 }

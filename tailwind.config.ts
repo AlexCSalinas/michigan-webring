@@ -10,8 +10,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'maize': '#FFCB05',
-        'michigan-blue': '#00274C',
+        'rust': '#B84E22',
+        'sage': '#7A8471',
+        'paper': '#F5F1E8',
+        'coal': '#141210',
+        'ink': '#1A1817',
         'neutral': {
           50: '#fafafa',
           100: '#f5f5f5',

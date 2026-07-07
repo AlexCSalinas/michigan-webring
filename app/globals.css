@@ -18,4 +18,22 @@
   .container {
     @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
   }
+
+  /* subtle dot grid backdrop */
+  .dot-grid {
+    background-image: radial-gradient(circle, rgba(122, 132, 113, 0.14) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: 0 0;
+  }
+  .dark .dot-grid {
+    background-image: radial-gradient(circle, rgba(184, 78, 34, 0.08) 1px, transparent 1px);
+  }
+
+  /* hairline row divider — 1px, warm in light mode, warm in dark */
+  .rule {
+    border-color: rgba(26, 24, 23, 0.1);
+  }
+  .dark .rule {
+    border-color: rgba(245, 241, 232, 0.1);
+  }
 }
