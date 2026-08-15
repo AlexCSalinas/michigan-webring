@@ -21,7 +21,7 @@ To add your site to the Michigan Web Ring:
 
 ### Requirements
 
-- Current student or alumni of University of Michigan Computer Science
+- Current student or alumni of University of Michigan 
 - Professional, appropriate personal website
 - Valid @umich.edu email for verification
 - Website must be accessible and functional
