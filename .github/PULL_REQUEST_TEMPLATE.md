@@ -12,7 +12,7 @@
 - **LinkedIn**: [Your LinkedIn profile slug (optional)]
 
 ## Checklist
-- [ ] I am a current student or alumni of UMich Computer Science
+- [ ] I am a current student or alumni of UMich 
 - [ ] My website is professional and appropriate
 - [ ] I have added my information to `data/students.csv`
 - [ ] My website URL is correct and accessible
