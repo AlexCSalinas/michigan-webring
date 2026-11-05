@@ -3,7 +3,7 @@
 ## Student Information
 - **Name**: [Your full name]
 - **Graduation Year**: [e.g., 2025]
-- **Program**: [e.g., Computer Science]
+- **Program**: [e.g., Computer Science, Biology, Economics]
 - **Website**: [Your personal website URL]
 - **UMich Email**: [Your @umich.edu email for verification]
 

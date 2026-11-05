@@ -5,13 +5,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Michigan Web Ring - UMich CS Students & Alumni',
-  description: 'A collection of personal websites from University of Michigan Computer Science students and alumni.',
-  keywords: ['University of Michigan', 'Computer Science', 'Web Ring', 'Students', 'Portfolio'],
-  authors: [{ name: 'UMich CS Community' }],
+  title: 'Michigan Web Ring - UMich Students & Alumni',
+  description: 'A collection of personal websites from University of Michigan students and alumni.',
+  keywords: ['University of Michigan', 'Web Ring', 'Students', 'Portfolio'],
+  authors: [{ name: 'UMich Community' }],
   openGraph: {
     title: 'Michigan Web Ring',
-    description: 'Personal websites from University of Michigan CS students and alumni',
+    description: 'Personal websites from University of Michigan students and alumni',
     type: 'website',
   },
   icons: {
